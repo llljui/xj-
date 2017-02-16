@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>php-ajax</title>
+	<meta charset="utf-8">
+	<meta http-equiv="Content-type" content=""> 
+</head>
+<body>	
+	<input type="text" name="biao" value="">
+	<input type="button" name=""  value="提交">
+	<p></p>
+<script type="text/javascript" src='../js/jquery-3.1.1.min.js'></script>
+<script type="text/javascript">
+	$(document).ready(function () {
+		var ev=event||ev;
+		$('input[type="text"]').keyup(function (ev) {
+			var datas={'abc':$('input[type="text"]').val()+Math.random()};
+	   		var urls='123.php';
+		    $.ajax({url:urls,type:'post',data:datas,success:function (result,status,xhr) {
+		    	console.log(xhr);
+		    	console.log(status);
+		    	console.log(result);
+
+		    },error:function(xhr,status,error){
+		    	alert('请求失败');
+		    	console.log(error);
+		    },type:'GET'})
+
+
+
+		})
+	})
+
+
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>跨域</title>
+	<meta charset="utf-8">
+	<meta name="keywords" content="">
+	<meta name="decription"  content="">
+	<meta http-equiv="refresh" content="2" url='http://192.168.1.102'>
+</head>
+<body>
+<input type="button" name=""  value="button" id="btn">
+<p></p>
+
+
+<script type="text/javascript" src='../js/jquery-3.1.1.min.js'></script>
+<script type="text/javascript">
+$(document).ready(function () {
+	$('#btn[value="button"]').click(function () {
+		alert('s');
+		var ojs=document.createElement('script');
+		ojs.type = "text/javascript";
+        ojs.src = "http://192.168.1.102/js/abc.js";
+		$(ojs).appendTo('p');
+
+	})
+})
+
+
+
+</script>
+</body>
+</html>

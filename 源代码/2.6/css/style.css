@@ -1,0 +1,23 @@
+#banner{width:750px;margin:0 auto}
+#banner{
+	
+	height:30px;
+	background:#ab0;
+	
+	
+}
+ul{
+	list-style:none
+}
+ul li{
+	float:left;
+	width:100px;
+	text-align:center;
+	border-right:2px solid #aba;
+	padding-top:5px;
+	height:25px;
+}
+a{
+	text-decoration:none;
+}
+

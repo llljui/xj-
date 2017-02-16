@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta charset="utf-8">
+</head>
+
+<body ng-app="main" ng-controller="mains">
+    <input type="text" name="" ng-model='first'>
+    <input type="text" name="" ng-model='second'>
+    <input type="text" name="" >
+    <p ng-cloak>{{first}}</p>
+    <p ng-repeat="(x,y) in arr" ng-cloak>{{x+'.'+y}} </p>
+     <p ng-repeat="(x,y) in arrs" ng-cloak>{{x+':'+y}} </p>
+    <script type="text/javascript" src='../angular/angular/angular.js'></script>
+    <script type="text/javascript">
+    var app=angular.module('main',[]);
+    app.controller('mains', function($scope,$http){
+       	$scope.arr=[1,2,3,4,5,6,7];
+       	$http.post("../json/ang.json").success(function (result) {
+       		console.log("成功");
+       		$scope.arrs=result.info;
+       	}).error(function (result) {
+       		alert("失败");
+       		console.log(result);
+       	});
+    	
+    });
+     
+
+    </script>
+</body>
+</html>
+

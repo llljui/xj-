@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>works</title>
+	<meta charset="utf-8">
+	<meta name="keywords" content="元素周期">
+	<meta name="decription" content="this is a map of ...">
+	<meta name="author" content="lixijiang">
+</head>
+<style type="text/css">
+body{margin: 0;}
+ul,li,ol{list-style: none;}
+
+
+</style>
+<body>
+<canvas id="ocanvas"  width='1150px' height='650p'  border='1px solid #ccc' style=" background:#000;text-align:center;"></canvas>
+<!-- 发现canvas居中后鼠标位置发生变化，鼠标是先对于窗口位置的
+ -->
+</body>
+<script type="text/javascript" src='../js/3.1.0.js'></script>
+<script type="text/javascript">
+window.onload=function () {
+	var oev=event||ev;
+	var w=document.getElementById('ocanvas');
+	/*w.width=window.innerWhith='1150px';
+	w.height=window.innerHeight='650px';可视区的框高*/
+	var ocontext=w.getContext('2d');
+	var colors=['#ADD8E6','#BCEE68','#B03060','	#7FFF00','#00F5FF','#00CD00','#5B5B5B','#6CA6CD','#8B1C62','#8EE5EE'];
+	var oo=[];
+	var round=function (min,max) {
+		return (max-min)*Math.random()+min;//输出区间的一个值
+		// body...
+	}
+
+    
+	
+
+
+	function draw(oo) {
+		for (var i=0; i<3; i++) {	  	
+			ocontext.beginPath();
+			ocontext.arc(oo.ox,oo.oy,oo.or,0,2*Math.PI,true);
+			ocontext.fillStyle=colors[rgb];
+			ocontext.stroke();
+			ocontext.fill();	
+			//如何解决canvas的缓存问题呢;	
+		}
+	}
+
+	//如何让球移动呢？
+	//让球向四周移动
+	//半径随之变为0
+	w.onmousemove=function(oev)
+	{  
+		   
+				ocontext.clearRect(0,0,w.width,w.height);			
+				for (var i=0;i<2;i++) {
+	    	    var ball= {
+			  
+						    ox:oev.clientX+round(-15,15),
+						 	oy:oev.clientY+round(-15,15)+window.pageYOffset,
+							or:10*Math.random(),
+							rgb:Math.floor(Math.random()*10),
+							vx:Math.random()-0.5,
+							vy:Math.random()-0.5
+						  }		
+				
+   	 			}	                                     //鼠标事件的时候设置球的参数
+	
+   	 			oo.push(ball);
+				if (oo.length>300) {oo.shift();}
+				console.log(oo.length);
+	}
+
+
+                drawball();
+				function drawball() {
+					draws.clearRect(0,0,window.innerWidth,window.innerHeight)
+					for (var i = 0; i< oo.length; i++) {
+							oo[i].ox=oo[i].vx*8;
+							oo[i].oy=oo[i].vx*8;
+							oo[i].or=oo[i].r*0.8;
+							draw(oo[i])	;						}
+
+					
+				}                                         //画圆函数
+			
+
+
+   	 		
+         
+	    	
+	}
+	
+
+	
+
+
+
+
+
+</script>
+</html>

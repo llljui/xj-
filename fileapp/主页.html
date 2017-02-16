@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>后台管理</title>
+    <meta charset="utf-8">
+</head>
+<link rel="stylesheet" type="text/css" href="../bootstrap/dist/css/bootstrap.css">
+<style type="text/css">
+#nav ul {
+    margin: 10px 30px;
+    box-shadow: 1px 5px 5px #666;
+    border-radius: 5px;
+    background-color: #343444;
+    max-height: 50px;
+    width: 700px;
+}
+/* 防止li浮动必须设置上级元素的宽高 */
+
+#nav ul li {
+    float: right;
+}
+
+#nav ul li a {
+    color: white;
+}
+</style>
+
+<body>
+    <div style="box-shadow: 0px 0px 10px #333;width: 1364px;">
+    	<img src="../img/logo.jpg" class="img-responsive" style="position:absolute; left:150px;right: 200px;height: 60px;">
+        <nav class="navbar navbar-default" role='navigation' style="width:860px;max-height:70px;border: 0px ; background-color: #ffffff; margin-left: 450px;">
+            <div id="nav">
+                <ul class="nav navbar-nav navbar-right">
+                	<li class=""><a href=""><span class="glyphicon glyphicon-pencil"></span> 留言板</a></li>
+                    <li class=""><a href=""><span class="glyphicon glyphicon-lock"></span> 权限设置</a></li>
+                    <li class=""><a href=""><span class="glyphicon glyphicon-user"></span>管理员管理</a></li>
+                    <li class=""><a href=""><span class="glyphicon glyphicon-gift"></span>H5小游戏</a></li>
+                    <li class=""><a href=""><span class="glyphicon glyphicon-book"></span>WEB文章</a></li>
+                    <li class=""><a href=""><span class="glyphicon glyphicon-picture"></span>照片管理</a></li>
+                    <li class=""><a href=""><span class="glyphicon glyphicon-home"></span>主页</a></li>
+                </ul>
+            </div>
+        </nav>  
+
+    </div>
+    <canvas id="mycanvas" width="1364px" height="255" style="background-image: url('../img/bg9-1');">您的浏览器版本过低无法显示此内容。</canvas>
+
+    <script type="text/javascript" src='../js/3.1.0.js'></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $('ul[class="nav navbar-nav navbar-right"] li').click(function(e) {
+            e.preventDefault();
+            $('ul[class="nav navbar-nav navbar-right"] li a').css('color', 'white');
+            $('ul[class="nav navbar-nav navbar-right"] li').removeClass('active');
+            $(this).addClass('active');
+            $(this).children('a').css({
+                'color': '#666'
+            });
+        });//前面导航部分
+
+			        var canvas1=document.getElementById('mycanvas');
+			        var can1=canvas1.getContext('2d');
+			        function minute() {
+			        	     can1.moveTo(900,50);
+			        		 can1.lineTo(1364,50);
+			       			 can1.stroke();
+			       			 can1.moveTo(800,100);
+			        		 can1.lineTo(1364,100);
+			       			 can1.stroke();
+			        	for (var i=0;i<=60; i++) {
+			        		var minutex=i*7+930;
+			        		var minutey=function () {
+			 				              if (i%5==0) {return 20;}
+			 				              else{return 35;}
+			        		}
+			        	   can1.moveTo(minutex,50);
+			        	   can1.lineTo(minutex,minutey());
+			        	   can1.stroke(); 
+			        	}
+			        }
+			        minute();  
+			        function numbers() {
+			                for (var i=0;i<=60;i++) {
+			                		var numberx=928+7*i ;
+			                	     if (i%5==0) {    
+			                	 can1.font='10px'; 
+			                	 can1.fillText(i,numberx,15);}
+			                }
+			        }
+			        numbers();
+			        function hours() {
+			        	can1.beginPath();
+			        	can1.fillStyle='#000';
+			        	can1.arc(1000,126,5,0,2*Math.PI,false);
+			        	can1.stroke();
+			        	can1.closePath();//头
+			        	can1.moveTo(1000,131);
+			        	can1.lineTo(1000,146);
+			        	can1.stroke();//身体
+			        	can1.moveTo(1000,136);
+			        	can1.lineTo(995,136);
+			        	can1.stroke();
+			        	can1.moveTo(995,136);
+			        	can1.lineTo(993,140);
+			        	can1.stroke();//左手
+			            can1.moveTo(1000,136);
+			        	can1.lineTo(1005,136);
+			        	can1.stroke();
+			            can1.moveTo(1005,136);
+			        	can1.lineTo(1007,132);
+			        	can1.stroke();//右手
+			            can1.moveTo(1000,142);
+			        	can1.lineTo(997,151);
+			        	can1.stroke();
+						can1.moveTo(997,151);
+			        	can1.lineTo(992,151);
+			        	can1.stroke();//左脚
+			        	can1.moveTo(1000,146);
+			        	can1.lineTo(1005,147);
+			        	can1.stroke();
+						can1.moveTo(1005,147);
+			        	can1.lineTo(1008,152);
+			        	can1.stroke();//右脚
+			        }
+       				hours();
+
+    })
+    </script>
+</body>
+
+</html>

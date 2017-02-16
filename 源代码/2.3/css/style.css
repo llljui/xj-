@@ -1,0 +1,19 @@
+#first{
+	width:200px;
+	height:100px;
+	background:#ab0;
+	float:left;
+}
+
+#second{
+	width:200px;
+	height:100px;
+	background:#fba;
+	clear:left;
+}
+#third{
+	width:200px;
+	height:100px;
+	background:#aca;
+	float:right;
+}

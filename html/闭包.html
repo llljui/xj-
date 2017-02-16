@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>闭包</title>
+	<meta charset="utf-8">
+</head>	
+<body>	
+<input type="button" 	value="button" 	id="btn" 	name="">
+<script type="text/javascript">
+
+	var a=100;
+	function fb() {
+		var b=200;
+		return function(){
+			var c=a+b;
+			return c;
+		}
+
+	}
+	var d=fb();
+  	alert(d());
+  	d=null;
+
+  	
+  	var btn1=document.getElementById('btn');
+    btn1.onclick=function () {
+    	     
+    	     /* var r=new Date().getTime();*/
+    	     var w=[];
+    		for(var q=0;q<5;q++){
+    			w[q]=(function (num) {
+    				return function () {
+    					return num;
+    				}//就是我把函数里面的某个变量我在函数外面要用到。通过函数的自执行（）（）我就把它return出去，然后我用一个变量来接收，因为这个变量跟我在同级作用域，所以在同级作用域下我可以使用这个变量。
+    				//如果是多个变量那我可以通过数组的形式传出去，变量可以通过内置函数添加到数组中，比如push，unshift等
+    			})(q);
+    			var temp=w[q];
+    			console.log(temp());
+    			alert(temp());
+    		}
+         
+    		
+
+    }
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+</body>
+</html>

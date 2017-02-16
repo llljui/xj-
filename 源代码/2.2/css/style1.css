@@ -1,0 +1,47 @@
+h2.pos_left
+{
+	position:relative;
+	left:-20px
+}
+h2.pos_right
+{
+	position:relative;
+	left:20px
+}
+#first{
+	position:relative;
+	left:50px;
+	top:50px;
+	width:200px;
+	height:100px;
+	background:#f00;
+}
+#second{
+	position:relative;
+	left:80px;
+	top:80px;
+	width:200px;
+	height:100px;
+	background:blue;
+}
+#content{
+	width:600px;
+	height:400px;
+	background:#0f0;
+}
+#fixed{
+	position:relative;
+	left:20px;
+	top:20px;
+	width:100px;
+	height:100px;
+	background:#abf;
+}
+#test{
+	position:relative;
+	left:40px;
+	top:40px;
+	width:100px;
+	height:100px;
+	background:gray;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SHOWCASE</title>
+</head>
+<meta charset="utf-8">
+<meta name="keywords" content="....">
+<meta name="decription" content="...">
+<meta name="author" content="lxj">
+<link rel="stylesheet" type="text/css" href="../../bootstrap/dist/css/bootstrap.min.css">
+<style type="text/css">
+	body{margin: 0;background-image: url(../img/d_1.jpg);}
+</style>
+<body>
+<head><h1 style=" margin:40px 610px; text-shadow: 5px 5px 15px #734;width: 200px; " class="text-info ">VIP.登录</h1></head>
+<div style="width: 700px;height: 450px;box-shadow: 5px 15px 15px #666; border: 2px solid #ddd; margin: 0 auto; border-radius: 20px; " class="lead">
+<input type="text" name="id" value="" placeholder="请输入登录帐号" class="lead danger" style="position: relative; left: 80px; margin-top: 100px;">
+<input type="password" name="password" value="" placeholder="请输入登录密码" class="lead danger" style="position: relative; left: 80px;"><br>
+<p id="status"  style="margin:20px 200px; width: 300px;height: 70px;text-align: center;color: #8654aa;text-shadow: 5px 5px 39px #986543;"></p>
+<input type="button" name="" value="登录" class="lead" style="margin-left: 240px;margin-top: 100px;">
+<input type="button" name="" value="注册" class="lead" style="margin-left: 100px;">
+<p id="visit" style="margin:0 500px;width: 200px;height: 30px;"></p>
+
+</div>
+
+
+
+
+<script type="text/javascript" src='../../js/jquery-3.1.1.min.js'></script>
+<script type="text/javascript">
+$(document).ready(function () {
+	if (typeof(Storage)!=="undefinded") {
+			if (localStorage.client>=1) {
+			     (function(){$('#visit').html('历史访问人数:'+localStorage.client);})();
+				        localStorage.client=Number(localStorage.client)+1;}	
+			else{localStorage.client=1; $('#visit').html("历史访问人数:"+localStorage.client);}}; 		
+	if (typeof(Storage)=="undefinded"){$('#visit').html("您的浏览器不支持Storage");}//计算历史访问人数
+$('input[value="登录"]').click(function () {
+						 $.ajax({
+				     	type:"post",
+				     	dataType:'json',
+				     	url:"../php/dl.php",
+				     	data:{id:$('input[name="id"]').val(),password:$('input[name="password"]').val()},
+				     	success:function (result,status,xhr) {
+				     		console.log(result);
+				     		console.log(xhr.status);
+				     		console.log(xhr);
+				     		$('#status').html(result);
+				     		if (result=="登录成功") {
+				     			setTimeout(function () {
+				     		 	 window.location.href="shouye.html";},1000);}
+				     		
+				        
+				     },
+				     	error:function (xhr,status,error) {
+				     	console.log(error);
+				     	console.log(status);
+				     	$('#status').html(status);
+				        }});
+						})
+ 
+					$('input[value="注册"]').click(function () {
+						window.open("zuce.html");
+					});
+
+
+
+
+
+})
+</script>
+</body>
+</html>

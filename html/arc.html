@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>arc</title>
+<meta charset="utf-8">
+<style type="text/css">
+	body{margin: 0;}
+
+
+
+</style>
+</head>
+<body>
+<canvas id="ocanvas" style="border:1px solid #ccc; background:#000;"></canvas>
+</body>
+<script type="text/javascript" src='../js/3.1.0.js'></script>
+<script type="text/javascript">
+window.onload=function () {
+	var ocanvas=document.getElementById('ocanvas');
+	ocanvas.width=window.innerWidth;
+	ocanvas.height=window.innerHeight;
+	var draws=ocanvas.getContext('2d');
+	var oev=event||ev;
+	var oo=[];
+	var rbg=['#ADD8E6','#BCEE68','#B03060','#7FFF00','#00F5FF','#00CD00','#5B5B5B','#6CA6CD','#8B1C62','#8EE5EE'];
+
+    function maxmin(min,max) {
+    	return (max-min)*Math.random()+min;
+    }
+      
+    function arcs(oo) {
+    	draws.beginPath();
+    	draws.arc(oo.ox,oo.oy,oo.or,0,Math.PI*2,true);
+    	draws.fillStyle=oo.rbgs;
+    	draws.stroke();
+    	draws.fill();
+    
+    }
+
+       
+		ocanvas.onmousemove=function(oev){
+
+			for (var i=0;i<2;i++) {
+
+	    		var ball={ ox:oev.clientX+maxmin(-5,5),
+	    				   oy:oev.clientY+maxmin(-5,5)+window.pageYOffset,
+	    				   or:Math.random()*10,
+	    				   vx:maxmin(-5,5),
+	    				   vy:maxmin(-5,5),
+	    				   rbgs:Math.floor(maxmin(0,9))
+	    				                }
+
+	    }
+	    
+	    		oo.push(ball);
+	    		if (oo.length>300) {oo.shift(ball);} 
+	    		playarc();
+	    		console.log(oo.length);
+	    		function playarc() {    		
+	    		draws.clearRect(0,0,draws.width,draws.height);
+	    		for (var i=0; i<oo.length;i++) {
+	    		oo[i].ox=oo[i].ox+oo[i].vx;
+	    		oo[i].oy=oo[i].oy+oo[i].vy;
+	    		oo[i].or=oo[i].or*0.9;
+	    		arcs(oo[i]);
+
+	    		}
+
+	    		}
+	    	
+
+	}
+
+}
+</script>
+</html>

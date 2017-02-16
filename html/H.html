@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ajax</title>
+	<meta charset="utf-8">
+</head>
+<body>
+<input type="text" name="" value="">
+<input type="button" name="" value="提交">
+</body>
+<script type="text/javascript" src='../js/jquery-3.1.1.min.js'></script>
+<script type="text/javascript">
+$(document).ready(function () {
+	$('input[ type="button"]').click(function () {
+		var date= {'abc':$('input[ type="text"]').val()}  ;
+		var url='p.php?'+Math.random();
+		$.ajax({url:url,data:date,type:'post',success:function (date,status,xhr) {
+			console.log('成功');
+			console.log(date);
+		},error:function () {
+			alert('faild');
+		}})
+
+
+	})
+})
+
+
+
+
+</script>
+
+
+
+
+</html>

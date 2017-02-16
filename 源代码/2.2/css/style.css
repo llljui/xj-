@@ -1,0 +1,29 @@
+#first{
+	position:absolute;
+	left:110px;
+	top:10px;
+	width:400px;
+	height:100px;
+	background:#676767;
+	z-index:2
+}
+#second{
+	position:absolute;
+	left:110px;
+	top:10px;
+	width:300px;
+	height:100px;
+	background:#f00;
+	z-index:1
+}
+#third{
+	width:100px;
+	height:150px;
+	background:blue;
+}
+h2.pos_abs{
+	position:absolute;
+	left:100px;
+	top:150px;
+	background:#fba
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>github</title>
+	<meta charset="utf-8">
+</head>
+<body>
+<p></p>
+<input type="button" name="" value="跨域">
+
+<script type="text/javascript" src='../js/jquery-3.1.1.min.js'></script>
+<script type="text/javascript">
+$(document).ready(function () {
+  $("input[type='button']").click(function () {
+ 	
+ 		$.ajax({
+ 			async:false,
+ 			type:'get',
+ 			dateType:'jsonp',
+ 			jsonp:'callback',
+ 			url:'http://192.168.1.102/text/abc.txt?',
+ 			jsonpCallback:'',
+ 			success:function (date) {
+ 				alert('常温下颜色'+date.age)
+ 			},
+ 			error:function () {
+ 				alert('GIT失败');
+ 			}
+ 			
+ 					}
+			)
+         alert('sv');
+
+  })
+  	/* var url='http://192.168.1.102/json/abc.JSON?name=H&callback=H';
+     var sj=document.createElement('script');
+     sj.src=url;
+     sj.type="text/javascript";
+     $(sj).appendTo('input');
+     function hs(date) {
+     	console.log(date.age);
+     }
+
+
+		})*/
+})
+
+
+
+</script>
+
+
+
+</body>
+</html>

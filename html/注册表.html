@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>注册信息查询</title>
+	<meta charset="utf-8">
+	<meta name="keywords" content="d">
+	<meta name="author" content="d">
+	<meta name="decription" content="d">
+	<!-- <meta http-equiv="refresh" content="20">
+	</head> -->
+<body>
+<input type="text" name="" value="">
+<input type="button" name=""  value="提交">
+
+
+
+<script type="text/javascript" src='../js/jquery-3.1.1.min.js'></script>
+<script type="text/javascript">
+$(document).ready(function () {
+	var ev=event||ev;
+	$('input[type="text"]').keyup(function (ev) {
+	   var date=$('input[type="text"]').val();
+	   var url='../PHP/zc.php';
+	   $(this).load(url,date,function (ret,status,xhr) {
+		if (status=='success') {
+			console.log('加载成功');
+			console.log(xhr.status);
+			console.log(xhr.ret);
+			console.log(date);
+		}
+
+		if (status=='error') {
+			alert('加载失败');
+			console.log(xhr.status);
+		}
+			
+		})
+	})
+})
+
+
+
+
+</script>
+</body>
+</html>

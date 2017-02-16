@@ -1,0 +1,19 @@
+#first{
+	width:200px;
+	height:100px;
+	background:#ab0;
+	float:left;
+	border-top:1px solid #f00;
+	padding-top:10px;
+	padding-left:8px;
+	margin-top:-10px
+	
+}
+#second{
+	width:200px;
+	height:100px;
+	background:#fba;
+	float:left;
+	margin-left:5px
+}
+

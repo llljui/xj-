@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>练习</title>
+	<style type="text/css">
+
+
+	</style>
+	<link rel="stylesheet" href="../bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+	<header id="header" class="container" >
+		<h1 class="text-info col-lg-5">员工信息查询系统</h1>
+	</header>
+	<ul style="margin-left:50px; ">
+		<li>&nbsp<strong class="lead text-danger">请输入员工编号</strong>&nbsp<input type="txet" name="number" value="" ></li>
+		<li>&nbsp<strong class="lead text-danger">请输入员工名字</strong>&nbsp<input type="txet" name="name" value="" ></li>
+		<li>&nbsp<strong class="lead text-danger">请输入员工性别</strong>&nbsp<input type="txet" name="sex" value="" ></li>
+		<li>&nbsp<strong class="lead text-danger">请输入员工岗位</strong>&nbsp<input type="txet" name="job" value="" ></li>
+	</ul>
+	<p style="border: 1px solid #000;width: 300px;height: 200px;margin-left: 100px;"></p>
+	<input type="button" name="get" value="GET查询" class="text-success" style="position: relative; left: 100px;">
+	<input type="button" name="post" value="POST查询" class="text-danger" style="position: relative; left: 120px;">
+	<input type="button" name="save" value="保存" class="text-info"  style="position: relative; left: 180px;">
+	
+
+
+	<script type="text/javascript" src='../js/jquery-3.1.1.min.js'></script>
+	<script type="text/javascript">
+	$(document).ready(function () {
+		$('input[name="get" ]').click(function () {
+
+			/*这里是get的方法请求后端*/			
+				$.get({
+				url:'inf.php?data='+$('input[name="number"]').val(),
+				success:function (data,status) {
+					console.log(data);
+					console.log(status);
+					$('p').html(data);
+				}
+					})
+			
+		})	
+
+		$('input[name="post" ]').click(function () {
+			
+					/*这里是post的请求方法*/
+			$.post({
+				data:{data:$('input[name="number"]').val(),
+				data:$('input[name="name"]').val(),
+				data:$('input[name="sex"]').val(),
+			    data:$('input[name="job"]').val() },
+				url:'inf.php',
+				success:function (data,status) {
+					console.log(data);
+					console.log(status);
+					$('p').html(data);
+					}
+					});
+
+		})
+	})
+
+
+
+	</script>
+</body>
+</html>

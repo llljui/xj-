@@ -1,0 +1,22 @@
+{
+  "name": "a",
+  "version": "1.0.0",
+  "description": "none",
+  "main": "入口文件",
+  "scripts": {
+    "test": "测试命令"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git地址"
+  },
+  "keywords": [
+    "关键字"
+  ],
+  "author": "作者",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.3.0"
+  }
+}

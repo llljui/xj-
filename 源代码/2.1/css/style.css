@@ -1,0 +1,12 @@
+#first{
+	width:300px;
+	height:200px;
+	border:1px solid #fba;
+}
+
+#banner{
+	border:1px solid #bac;
+	width:700px;
+	height:200px;
+	margin:0 auto
+}

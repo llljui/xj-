@@ -1,0 +1,881 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"if",
+				"iframe\tTag"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"tetx",
+				"text-danger \tBootstrap 3 Class"
+			],
+			[
+				"td",
+				"td\tTag"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"header",
+				"header"
+			],
+			[
+				"head",
+				"head\t<head>"
+			],
+			[
+				"style",
+				"style\tAttr"
+			],
+			[
+				"scri",
+				"script\tTag"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"tab-",
+				"tab-pane \tBootstrap 3 Class"
+			],
+			[
+				"te",
+				"text-info \tBootstrap 3 Class"
+			],
+			[
+				"bg",
+				"bg-primary \tBootstrap 3 Class"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"btn-",
+				"btn-info \tBootstrap 3 Class"
+			],
+			[
+				"margi",
+				"margin-right"
+			],
+			[
+				"buton",
+				"button\tbutton"
+			],
+			[
+				"div",
+				"div\t<div>"
+			],
+			[
+				"setin",
+				"setInterval"
+			],
+			[
+				"set",
+				"setInterval"
+			],
+			[
+				"text-",
+				"text-info \tBootstrap 3 Class"
+			],
+			[
+				"bg-",
+				"bg-info \tBootstrap 3 Class"
+			],
+			[
+				"fo",
+				"footer\t<footer>"
+			],
+			[
+				"im",
+				"img-thumbnail \tBootstrap 3 Class"
+			],
+			[
+				"argin",
+				"margin-top"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"line",
+				"inline"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"translate",
+				"translateX"
+			],
+			[
+				"pre",
+				"perspective"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"rotate",
+				"rotateX()"
+			],
+			[
+				"trans",
+				"transform"
+			],
+			[
+				"img",
+				"img-thumbnail \tBootstrap 3 Class"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"p",
+				"p\tTag"
+			],
+			[
+				"tra",
+				"transform"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"btn",
+				"btn-default \tBootstrap 3 Class"
+			],
+			[
+				"bacg",
+				"background"
+			],
+			[
+				"fol",
+				"float"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"pan",
+				"panel-primary \tBootstrap 3 Class"
+			],
+			[
+				"navbar-fix",
+				"navbar-fixed-top \tBootstrap 3 Class"
+			],
+			[
+				"act",
+				"active \tBootstrap 3 Class"
+			],
+			[
+				"col-",
+				"col-md-2 \tBootstrap 3 Class"
+			],
+			[
+				"che",
+				"checked\tAttr"
+			],
+			[
+				"max",
+				"maxlength\tAttr"
+			],
+			[
+				"audio",
+				"audio\t<audio>"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"blo",
+				"block"
+			],
+			[
+				"butt",
+				"button\tTag"
+			],
+			[
+				"dec",
+				"text-decoration"
+			],
+			[
+				"alg",
+				"align-content"
+			],
+			[
+				"sty",
+				"style\tTag"
+			],
+			[
+				"heae",
+				"header\tTag"
+			],
+			[
+				"meta",
+				"meta\tTag"
+			],
+			[
+				"nav-br",
+				"navbar-brand \tBootstrap 3 Class"
+			],
+			[
+				"navbar-fi",
+				"navbar-fixed-top \tBootstrap 3 Class"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"canvas",
+				"canvas\tTag"
+			],
+			[
+				"pull-",
+				"pull-right \tBootstrap 3 Class"
+			],
+			[
+				"block",
+				"center-block \tBootstrap 3 Class"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"pa",
+				"panel-primary \tBootstrap 3 Class"
+			],
+			[
+				"pane",
+				"panel-heading \tBootstrap 3 Class"
+			],
+			[
+				"panle",
+				"panel-footer \tBootstrap 3 Class"
+			],
+			[
+				"panel",
+				"panel-heading \tBootstrap 3 Class"
+			],
+			[
+				"st",
+				"strong\tTag"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"navba",
+				"navbar \tBootstrap 3 Class"
+			],
+			[
+				"nav",
+				"nav\tTag"
+			],
+			[
+				"menu",
+				"menu\t<menu>"
+			],
+			[
+				"ac",
+				"active \tBootstrap 3 Class"
+			],
+			[
+				"pagi",
+				"pagination \tBootstrap 3 Class"
+			],
+			[
+				"respons",
+				"table-responsive \tBootstrap 3 Class"
+			],
+			[
+				"imng",
+				"img-thumbnail \tBootstrap 3 Class"
+			],
+			[
+				"a",
+				"a\tTag"
+			],
+			[
+				"has",
+				"has-success \tBootstrap 3 Class"
+			],
+			[
+				"img-",
+				"img-responsive \tBootstrap 3 Class"
+			],
+			[
+				"met",
+				"method\tAttr"
+			],
+			[
+				"actio",
+				"action\tAttr"
+			],
+			[
+				"form",
+				"form\t<form>"
+			],
+			[
+				"li",
+				"li\tTag"
+			],
+			[
+				"list",
+				"list-group-item \tBootstrap 3 Class"
+			],
+			[
+				"ul",
+				"ul\tTag"
+			],
+			[
+				"list-",
+				"list-group \tBootstrap 3 Class"
+			],
+			[
+				"table",
+				"table-hover \tBootstrap 3 Class"
+			],
+			[
+				"th",
+				"th\tTag"
+			],
+			[
+				"tr",
+				"tr\tTag"
+			],
+			[
+				"tbody",
+				"tbody\tTag"
+			],
+			[
+				"pull",
+				"pull-right \tBootstrap 3 Class"
+			],
+			[
+				"col-md",
+				"col-md-6 \tBootstrap 3 Class"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"exprots",
+				"module.exports"
+			],
+			[
+				"console",
+				"console.log"
+			],
+			[
+				"con",
+				"console.log"
+			],
+			[
+				"createStream",
+				"fs.createWriteStream"
+			],
+			[
+				"readS",
+				"ReadStream"
+			],
+			[
+				"conse",
+				"console.log"
+			],
+			[
+				"listen",
+				"server.listen"
+			],
+			[
+				"createS",
+				"http.createServer"
+			],
+			[
+				"par",
+				"$routeParams\tAngularJS"
+			],
+			[
+				"valu",
+				"value\tAttr"
+			],
+			[
+				"ng-re",
+				"ng-repeat\tAngularJS"
+			],
+			[
+				"ng",
+				"ng-controller\tAngularJS"
+			],
+			[
+				"module",
+				"verbose_module\tAngularJS"
+			],
+			[
+				"ng-cla",
+				"ng-cloak\tAngularJS"
+			],
+			[
+				"scop",
+				"$scope\tAngularJS"
+			],
+			[
+				"mou",
+				"verbose_module\tAngularJS"
+			],
+			[
+				"mysql_c",
+				"mysql_create_db"
+			],
+			[
+				"mysql_db",
+				"mysql_select_db"
+			],
+			[
+				"my",
+				"mysql_query"
+			],
+			[
+				"heade",
+				"header"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"jso",
+				"json_encode"
+			],
+			[
+				"登录",
+				"登录失败"
+			],
+			[
+				"re",
+				"result"
+			],
+			[
+				"tex",
+				"text-shadow"
+			],
+			[
+				"id",
+				"id_password"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"lo",
+				"localStorage"
+			],
+			[
+				"input",
+				"input\tTag"
+			],
+			[
+				"htm",
+				"html\thtml"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/E/localhost/www/www/README.md",
+			"settings":
+			{
+				"buffer_size": 21,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 150.0,
+		"last_filter": "Package Control: in",
+		"selected_items":
+		[
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/localhost/www",
+		"/E/git/newapp/jiancaiPC"
+	],
+	"file_history":
+	[
+		"/D/身份照片/jx-carLoan/sea-modules/seajs/seajs-debug/1.1.1/seajs-debug.js",
+		"/E/localhost/www/www/webstrom/package.json",
+		"/C/Users/xjiang/AppData/Local/Temp/360zip$Temp/360$0/publish_job.html",
+		"/G/SAVE/jiancaiPC/window.html",
+		"/G/SAVE/jiancaiPC/login.html",
+		"/G/SAVE/jiancaiPC/register.html",
+		"/G/SAVE/jiancaiPC/publish_job.html",
+		"/G/SAVE/jiancaiPC/job_list.html",
+		"/G/SAVE/jiancaiPC/home.html",
+		"/G/SAVE/jiancaiPC/company_center.html",
+		"/G/储存区/jiancaiPC/register.html",
+		"/G/储存区/jiancaiPC/publish_job.html",
+		"/G/储存区/jiancaiPC/home.html",
+		"/G/储存区/jiancaiPC/login.html",
+		"/G/储存区/jiancaiPC/job_list.html",
+		"/G/储存区/jiancaiPC/company_center.html",
+		"/G/储存区/bolg/app1/index.html",
+		"/G/储存区/bolg/app1/css.css",
+		"/E/localhost/www/www/app1/index.html",
+		"/E/localhost/www/www/mw/license",
+		"/E/git/newapp/jiancaiPC/.idea/encodings.xml",
+		"/E/localhost/www/www/html/ifreame.html",
+		"/E/localhost/www/www/html/ifream.html",
+		"/E/localhost/www/www/mw/jiancaiPC/css/public/base.css",
+		"/E/localhost/www/www/mw/lunbo.html",
+		"/E/localhost/www/www/lunbo",
+		"/E/localhost/www/www/zp/jiancaiPC/register.html",
+		"/E/localhost/www/www/new/readme.md",
+		"/E/localhost/www/www/jiancaiPC/login.html",
+		"/E/localhost/www/www/jiancaiPC/register.html",
+		"/E/localhost/www/www/源代码/2.5/index.html",
+		"/E/localhost/www/www/源代码/2.11/index.html",
+		"/E/localhost/www/www/源代码/2.8/index.html",
+		"/D/身份照片/jx-carLoan/dist/c/static/h-ui/css/H-ui-debug.css.js",
+		"/E/git/abc.html",
+		"/E/git/license",
+		"/E/git/readme.md",
+		"/E/git/reamd.md",
+		"/C/Users/xjiang/Desktop/loan-eye/src/p/systemSetYun/index.js",
+		"/C/Users/xjiang/Desktop/loan-eye/pages/enterprise/index.html",
+		"/E/NodeProject/index.js",
+		"/E/localhost/www/www/node/test/index.js",
+		"/E/localhost/www/www/node/test/router.js",
+		"/E/localhost/www/www/node/test/stream.js",
+		"/E/localhost/www/www/node/new-p/server.js",
+		"/E/localhost/www/www/app1/css.css",
+		"/E/localhost/www/www/app1/modnirz.js",
+		"/E/localhost/www/www/app1/js.js",
+		"/E/localhost/www/www/30-情侣博客模板《回忆》Html/html_boy/index.html",
+		"/E/localhost/www/www/30-情侣博客模板《回忆》Html/html_boy/js/modernizr.js",
+		"/E/localhost/www/www/html/reg.html",
+		"/E/web/html/reg.html",
+		"/E/localhost/www/www/app1/1.php",
+		"/E/localhost/www/www/app1/1.json",
+		"/E/localhost/www/www/app1/1.html",
+		"/E/localhost/www/www/PHP/inf.php",
+		"/E/localhost/www/www/fileapp/主页.html",
+		"/E/资料/html5-canvas-side-text/js/index.js",
+		"/E/localhost/www/www/fileapp/login.php",
+		"/E/localhost/www/www/fileapp/首页.html",
+		"/E/localhost/www/www/html/响应式静态页面.html",
+		"/E/localhost/www/www/prectice/bs.html",
+		"/E/NodeProject/test/express.js",
+		"/D/node/node_modules/express/node_modules/utils-merge/index.js",
+		"/D/node/node_modules/express/index.js",
+		"/E/NodeProject/serio/serio.js",
+		"/E/NodeProject/html/index.html",
+		"/D/node/node_modules/supervisor/package.json",
+		"/E/localhost/www/www/node/app/webser.js",
+		"/E/localhost/www/www/node/app/server/server.js",
+		"/E/localhost/www/www/node/test/mysql.js",
+		"/D/node/node_modules/.cookie-parser_npminstall/node_modules/.1.4.3@cookie-parser/package.json",
+		"/E/localhost/www/www/node/app/index.html",
+		"/E/localhost/www/www/node/route-server.js",
+		"/E/localhost/www/www/node/route-readfile.js",
+		"/E/localhost/www/www/node/index.js",
+		"/E/localhost/www/www/node/router.js",
+		"/E/localhost/www/www/node/route.js",
+		"/E/localhost/www/www/node/readimg.js",
+		"/E/localhost/www/www/node/imgfn.js",
+		"/E/localhost/www/www/node/server_model.js",
+		"/E/localhost/www/www/node/pipe.js",
+		"/E/localhost/www/www/node/stream.js",
+		"/E/localhost/www/www/html/stream1.html",
+		"/E/localhost/www/www/html/stream2.html",
+		"/E/localhost/www/www/node/readFile.js",
+		"/E/localhost/www/www/html/666.html",
+		"/E/localhost/www/www/node/text1.txt",
+		"/E/localhost/www/www/node/new-p/index.html",
+		"/D/系统软件/google download/201502151632/index.html",
+		"/E/localhost/www/www/node/eventEmitter.js",
+		"/D/系统软件/google download/201502151632/js/TweenMax.min.js",
+		"/E/localhost/www/www/node/server1.js",
+		"/C/Users/xjiang/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/E/localhost/www/www/node/1.html",
+		"/E/localhost/www/www/html/angular.html",
+		"/E/localhost/www/www/json/ang.json",
+		"/C/Users/xjiang/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/D/node/node_modules/vue/package.json",
+		"/C/Users/xjiang/node_modules/tiny-lr/examples/express/package.json",
+		"/D/node/12.js",
+		"/C/Users/xjiang/node_modules/grunt/lib/grunt.js",
+		"/E/localhost/www/www/zuoping/html/showcase.html",
+		"/E/localhost/www/www/zuoping/html/zuce.html",
+		"/E/localhost/www/www/zuoping/php/dl.php",
+		"/E/localhost/www/www/zuoping/html/shouye.html",
+		"/E/localhost/www/www/PHP/php头文件模板.php",
+		"/E/localhost/www/www/zuoping/dl.php",
+		"/E/localhost/www/www/zuoping/showcase.html",
+		"/E/localhost/www/www/html/bs.html",
+		"/E/localhost/www/www/works/showcase.html",
+		"/E/localhost/www/www/works/emp.html",
+		"/E/localhost/www/www/works/fo1.php",
+		"/E/localhost/www/www/works/shouye.html",
+		"/E/localhost/www/www/works/emp.php",
+		"/E/localhost/www/www/PHP/练习.html",
+		"/E/localhost/www/www/PHP/staff.php",
+		"/E/localhost/www/www/PHP/connect.php",
+		"/E/localhost/www/www/PHP/000.php",
+		"/E/localhost/www/www/PHP/关联数组的遍历.php",
+		"/E/localhost/www/www/PHP/mysql_connect.php",
+		"/E/wamp64/www/PHP/inf.php",
+		"/E/wamp64/www/PHP/练习.html",
+		"/E/wamp64/www/PHP/php头文件模板.php",
+		"/C/Users/xjiang/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/xjiang/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/E/wamp64/www/json/abc.JSON",
+		"/E/wamp64/www/json/1.json"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"region",
+			"province",
+			"林琪泰",
+			"transparent",
+			"top_logo_line_box",
+			"button-caution-collect",
+			".left_box",
+			"btn-red2",
+			"mrgA3",
+			"100%",
+			"left",
+			"200",
+			"}"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/E/localhost/www/www/README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 21,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20,
+								20
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "project.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"www\\www\\app1\\index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 246.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

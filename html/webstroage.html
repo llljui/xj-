@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>webstorage</title>
+	<meta charset="utf-8">
+</head>
+<body>
+<h1>webstorage本地储存功能</h1>
+<p id="write"></p>
+<input type="text" name="" value="">
+<input type="button" name=""  value="reading">
+<input type="button" name="" value="saving">
+
+<script type="text/javascript" src='../js/jquery-3.1.1.min.js'></script>
+<script type="text/javascript">
+$(document).ready(function () {
+
+	$('input[value="reading"]').click(function saving() {
+
+	   /*var cun1=$('input[type="text"]').val();
+		sessionStorage.chucun=cun1;  这个是临时保存浏览器关闭后无法读取 */ 
+		var cun2=$('input[type="text"]').val();//永久保存
+		localStorage.chucun=cun2;		
+
+	})
+	$('input[value="saving"]').click(function write() {
+		/*var sessionStorages=sessionStorage.chucun;
+		$('#write').html(sessionStorages);
+*/
+
+		var localStorages=localStorage.chucun;
+		$('#write').html(localStorages);
+
+
+	})
+})
+
+
+
+
+</script>
+</body>
+</html>

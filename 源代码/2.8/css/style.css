@@ -1,0 +1,33 @@
+body{
+	margin:0;
+	font-size:12px;
+	background:#c9c9c9;
+}
+.page{
+	width:835px;
+	margin:0 auto;
+}
+.banner{
+	height:172px;
+	background:url(../images/page_02.jpg);
+}
+.nav{
+	height:35px;
+	background:url(../images/page_04.gif);
+	
+}
+.nav ul{
+	list-style:none;
+	font-size:14px;
+	color:#fff;
+}
+.nav ul li{
+	float:left;
+	width:80px;
+	text-align:center;
+	line-height:35px;
+}
+
+
+
+
